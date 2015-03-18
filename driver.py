@@ -6,7 +6,7 @@ scene = json.loads(input_string)
 
 frames_col= scene["properties"]["interval"] / scene["properties"]["step"];
 
-
+#комментарий
 scene["frames"] = []
 
 for frame_index in xrange(1, frames_col):
